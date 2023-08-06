@@ -1,0 +1,58 @@
+
+get http://localhost:8000/users
+
+###
+get http://localhost:3000/users
+
+###
+post http://localhost:3000/users
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name":"test_name",
+    "email":"test_email",
+    "password":"test_password"
+}
+
+
+###
+
+post http://localhost:8000/login
+Content-Type: application/json
+
+  {
+    "email": "a@a.com",
+    "password": "1234"
+  }
+###
+# get http://localhost:8000/pet/user/64033c73b374207b7e32f7ac
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJwYXNzd29yZCI6IjAzYWM2NzQyMTZmM2UxNWM3NjFlZTFhNWUyNTVmMDY3OTUzNjIzYzhiMzg4YjQ0NTllMTNmOTc4ZDdjODQ2ZjQiLCJpYXQiOjE2NzgyMTgyNjR9.4LdFJL2X-QL_5ExL3GgP7xpPVdBBvg8Ulr6Z0nvrZpM
+
+###
+get http://localhost:8000/user/validate/64033c73b374207b7e32f7ac
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJwYXNzd29yZCI6IjAzYWM2NzQyMTZmM2UxNWM3NjFlZTFhNWUyNTVmMDY3OTUzNjIzYzhiMzg4YjQ0NTllMTNmOTc4ZDdjODQ2ZjQiLCJpYXQiOjE2NzgxMjkxODR9.BAa9w6yihUAwYcEDmlczQ7h1pHZ0yMQDh0pHdYkYv9Y
+
+###
+get http://localhost:8000/user/64033c73b374207b7e32f7ac
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJwYXNzd29yZCI6IjAzYWM2NzQyMTZmM2UxNWM3NjFlZTFhNWUyNTVmMDY3OTUzNjIzYzhiMzg4YjQ0NTllMTNmOTc4ZDdjODQ2ZjQiLCJpYXQiOjE2NzgyNzE0MTN9._bV4eaJP-Ie-pRhsvKxHGFjbwmIrR0zMN1OMoTA7uwc
+
+
+###
+get http://localhost:8000/users
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlczU0QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiNjVhYzRjNGI1Mjc5Nzg5MTcxYTU2MTY5NDk1ZDQzZmIwN2IzZTcyN2M5YzlkZDk3ZjBhMjgwNDVmNzFkZGI0YSIsImlhdCI6MTY3Nzc4MjUzN30.k-q3reBpJY_brY1fivlHWOwRGYCUFSmetKmZjk73enk
+###
+put http://localhost:8000/user/64032fe3464089a2e1a22b16
+Content-Type: application/json
+
+{
+    "email": "ohad.izraeli@gmail.com",
+     "password": "",
+     "f_name": "xxxxx",
+      "l_name": "test4"
+}
+###
+get http://localhost:3000/users
+Authorization: bearer 8f745ce18c28e36e512f3e16c1b7aa1232cbb5ec99ecdfabfa4637c3c523ba7fce01b1ac481ff45fb032b70f8f721e5476947a972e2a0b3ef3b0cc6499be0970
+
+###

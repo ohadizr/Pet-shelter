@@ -1,0 +1,33 @@
+
+get http://localhost:8000/pets
+
+###
+get http://localhost:8000/users
+
+
+###
+post http://localhost:8000/login/
+content-type: application/json
+Accept: application/json
+
+{
+  "email":"a@a.com",
+  "password":"1234"
+
+}
+###
+get http://localhost:8000/user/64033c73b374207b7e32f7ac
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJwYXNzd29yZCI6IjAzYWM2NzQyMTZmM2UxNWM3NjFlZTFhNWUyNTVmMDY3OTUzNjIzYzhiMzg4YjQ0NTllMTNmOTc4ZDdjODQ2ZjQiLCJpYXQiOjE2NzgxMjU2NjV9.Gfv626CV-_ocTVyZSX_CTB9kvOpG7rAP_5nZH_FF-Pw
+###
+
+post http://localhost:8000/pet
+Content-Type: application/json
+
+{
+"type":["dog","cat"],
+"adoption_status":["fostered"]
+
+}
+###
+get http://localhost:8000/user/validate/64033c73b374207b7e32f7ac
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJwYXNzd29yZCI6IjAzYWM2NzQyMTZmM2UxNWM3NjFlZTFhNWUyNTVmMDY3OTUzNjIzYzhiMzg4YjQ0NTllMTNmOTc4ZDdjODQ2ZjQiLCJpYXQiOjE2NzgxMjg3Nzl9.zvCrhgMQcpNF--CLUVSyFhyte_QYnpI3JGiJNP_lso4

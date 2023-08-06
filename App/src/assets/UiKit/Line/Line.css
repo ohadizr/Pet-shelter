@@ -1,0 +1,21 @@
+.Line {
+    display: flex;
+
+}
+.line.middle {
+    vertical-align: middle;
+}
+
+.Line.between {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Line.around {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Line.rows {
+    flex-direction: column;
+    /* height: ; */
+}

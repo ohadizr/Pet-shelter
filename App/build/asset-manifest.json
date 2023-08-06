@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.549e5ccf.css",
+    "main.js": "/static/js/main.b121378a.js",
+    "static/media/Donate.jpg": "/static/media/Donate.3e1d3c99a9f320cc84d5.jpg",
+    "static/media/volunteer.jpg": "/static/media/volunteer.ea31ef7121808cf21ce8.jpg",
+    "static/media/cat_orange_background.webp": "/static/media/cat_orange_background.3d641c01cdc00a5bf4f6.webp",
+    "static/media/Foster.jpg": "/static/media/Foster.c9f0411309bca9cc6606.jpg",
+    "static/media/logo 03 standard.png": "/static/media/logo 03 standard.9505c3042dd0e2022d74.png",
+    "static/media/dog_green_background.jpg": "/static/media/dog_green_background.06fd84d65c2d8c45f847.jpg",
+    "index.html": "/index.html",
+    "main.549e5ccf.css.map": "/static/css/main.549e5ccf.css.map",
+    "main.b121378a.js.map": "/static/js/main.b121378a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549e5ccf.css",
+    "static/js/main.b121378a.js"
+  ]
+}

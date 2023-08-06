@@ -1,0 +1,84 @@
+.headContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  background-color: #f4f0ea;
+  z-index: 50;
+  height: 19vh;
+}
+
+.TopMessage {
+  width: 100vw;
+  padding: 0.5rem 0 0.5rem 0;
+  background-color: #8bae82;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+.message {
+  color: white;
+  display: block;
+  font-size: 1em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0em;
+  font-weight: bold;
+}
+
+.UpperNav {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: center;
+  height: auto;
+}
+
+.topNavButton {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.topNavLogo {
+  width: 23vw;
+  height: 3vw;
+  align-self: center;
+}
+
+.LowerNav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.phoneLogo {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
+}
+
+.PhoneHeadContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  background-color: #f4f0ea;
+  z-index: 50;
+  height: 19vh;
+}
+.dropDownMenu {
+  background-color: transparent;
+}
+
+
+
